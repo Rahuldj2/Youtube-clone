@@ -1,0 +1,92 @@
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    column-gap: 8px;
+    row-gap: 10px;
+    /* margin-top: 65px; */
+    padding: 40px;
+    background-color: rgb(251, 245, 245);
+    /* text-size-adjust: 100%; */
+  }
+  .thumbnail {
+    width: 300px;
+    display: block;
+  }
+
+  .search-bar {
+    display: inline-block;
+  }
+
+  .video-title {
+    width: 100%;
+    font-weight: bold;
+    line-height: 20px;
+  }
+
+  .video-preview {
+    object-fit: contain;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .video-stats,
+  .video-author {
+    color: rgb(210, 171, 171);
+    font-size: 12px;
+  }
+  .smallig {
+    width: 40px;
+    border-radius: 20px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: 16px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  div.dp {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .video-preview .video-time {
+    position: absolute;
+    background-color: rgb(48, 41, 41);
+    color: white;
+    width: 50px;
+    right: 10px;
+    top: 145px;
+
+  }
+  .video-time {
+    text-align:center;
+  }
+
+@media (max-width:499px)
+{
+  .Container{
+    grid-template-columns: 1fr;
+  }
+}
+  @media (min-width: 500px) and (max-width: 899px) {
+    .Container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1142px) {
+    .Container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1143px) {
+    .Container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
