@@ -5,3 +5,6 @@ using media queries, I learnt how to implement flexbox and grids which are extre
 
 ## PREVIEW OF MY PROJECT:
 ![image](https://user-images.githubusercontent.com/89291885/192086922-c05eb73b-d3bb-48ac-bf1a-9af0076b34e0.png)
+
+
+***(Disclaimer: All images,thumbnails and logos used in this project belong to the respective owners. I have just used them for development purpose).***
